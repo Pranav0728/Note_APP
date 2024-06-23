@@ -18,7 +18,7 @@ export default function Page() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('http://localhost:3000/api/notelist');
+        const response = await fetch('https://note-app-sable-eight.vercel.app/api/notelist');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
