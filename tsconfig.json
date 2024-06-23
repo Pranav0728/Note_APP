@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/utils/dbconnect.js", "src/app/api/note/route.js", "src/actions/action.js", "src/app/page.jsx", "src/app/notes/page.jsx"],
   "exclude": ["node_modules"]
 }
