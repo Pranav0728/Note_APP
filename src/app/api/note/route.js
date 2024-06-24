@@ -1,6 +1,5 @@
 import dbConnect from "@/utils/dbconnect";
 import Note from "@/models/note"
-
 import {NextResponse} from "next/server";
 
 export async function POST(req, res) {
