@@ -16,10 +16,7 @@ export default function Home() {
         title: formData.title,
         note: formData.note
       });
-
-      // Clear form inputs after successful submission
       
-
       console.log("Note submitted successfully!", response);
     } catch (error) {
       console.error("Error submitting note:", error);

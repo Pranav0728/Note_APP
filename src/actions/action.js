@@ -7,7 +7,7 @@ import { NextResponse } from "next/server";
 // Use 'export async function' instead of 'export default async function'
 export async function submitNote(data) {
   try {
-     
+     console.log(data)
     await dbConnect();
     const Sampledata = JSON.parse(JSON.stringify(data))
     await Note.create(Sampledata);
